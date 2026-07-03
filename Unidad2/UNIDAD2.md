@@ -10,15 +10,15 @@ Este directorio almacena las herramientas analíticas dedicadas al modelamiento 
 ## 🗺️ 1. Estructura de Actividades Prácticas Experimentales (Laboratorios)
 Haga clic en cualquiera de los enlaces para revisar la documentación, el código y la resolución técnica interactiva:
 
-* [📄 Laboratorio APE06: Distribuciones Continuas Notables](./APEs/APE06.ipynb)  
+* [📄 Laboratorio APE06: Distribuciones Continuas Notables](./APE/APE06.ipynb)  
   *Modelamiento de la campana de Gauss, estandarización de variables y aplicación práctica de la tabla Z mediante software.*
-* [📄 Laboratorio APE07: Distribuciones Muestrales y Teorema del Límite Central (TLC) mediante Simulación Estocástica](./APEs/APE07.ipynb)  
+* [📄 Laboratorio APE07: Distribuciones Muestrales y Teorema del Límite Central (TLC) mediante Simulación Estocástica](./APE/APE07.ipynb)  
   *Generación masiva de muestras por simulación para demostrar visual y matemáticamente el cumplimiento asintótico del TLC.*
-* [📄 Laboratorio APE08: Inferencia Estadística: Estimación de Parámetros e Intervalos de Confianza (Z y T de Student)](./APEs/APE08.ipynb)  
+* [📄 Laboratorio APE08: Inferencia Estadística: Estimación de Parámetros e Intervalos de Confianza (Z y T de Student)](./APE/APE08.ipynb)  
   *Cálculo automatizado de intervalos de confianza para predecir medias bajo varianzas poblacionales conocidas y desconocidas.*
-* [📄 Laboratorio APE09: Inferencia Estadística: Pruebas de Hipótesis Paramétricas (Z y T) y Análisis del Valor-p](./APEs/APE09.ipynb)  
+* [📄 Laboratorio APE09: Inferencia Estadística: Pruebas de Hipótesis Paramétricas (Z y T) y Análisis del Valor-p](./APE/APE09.ipynb)  
   *Ejecución de contrastes empíricos de hipótesis paramétricas e interpretación crítica del valor-$p$ como regla para rechazar la hipótesis nula.*
-* [📄 Laboratorio APE10: Inferencia Estadística Multigrupo: Análisis de Varianza (ANOVA de 1 factor) y Pruebas Post-Hoc (Tukey)](./APEs/APE10.ipynb)  
+* [📄 Laboratorio APE10: Inferencia Estadística Multigrupo: Análisis de Varianza (ANOVA de 1 factor) y Pruebas Post-Hoc (Tukey)](./APE/APE10.ipynb)  
   *Implementación de contrastes de varianza multilinea y comparación simultánea por parejas para mitigar la inflación del error Tipo I.*
 
 ---
