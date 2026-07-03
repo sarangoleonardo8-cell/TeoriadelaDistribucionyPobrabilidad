@@ -21,6 +21,11 @@ Haga clic en cualquiera de los enlaces para revisar la documentación, el códig
 * [📄 Laboratorio APE10: Inferencia Estadística Multigrupo: Análisis de Varianza (ANOVA de 1 factor) y Pruebas Post-Hoc (Tukey)](./APE/APE10.ipynb)  
   *Implementación de contrastes de varianza multilinea y comparación simultánea por parejas para mitigar la inflación del error Tipo I.*
 
+  ---
+
+## 📝 2. Evaluacione Sumativa (Exámen)
+* [💻 Examen Práctico Unidad 2](./Jefferson_Sarango_Examen_U2.ipynb)
+
 ---
 
 ## 📓 2. Resumen de Autoevaluación y Aprendizaje
