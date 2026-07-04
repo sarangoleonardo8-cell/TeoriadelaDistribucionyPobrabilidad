@@ -10,11 +10,11 @@ Haga clic en cualquiera de las guías para revisar la documentación y resoluci�
 
 * [📄 Laboratorio APE00: Fundamentos de Probabilidad y Espacios Muestrales](./APE/APE00.ipynb)  
   *Simulación en Python de fenómenos aleatorios mediante la definición analítica de espacios muestrales y eventos probabilísticos.*
-* [📄 Laboratorio APE01: Variables Aleatorias y Distribuciones de Probabilidad](./APE/APE01.ipynb)  
+* [📄 Laboratorio APE01: Variables Aleatorias y Distribuciones de Probabilidad](./APE/APE01.pdf)  
   *Implementación algorítmica para evaluar el comportamiento intrínseco de variables aleatorias mediante funciones de masa y densidad.*
-* [📄 Laboratorio APE02: Distribuciones Muestrales y Teorema del Límite Central](./APE/APE02.ipynb)  
+* [📄 Laboratorio APE02: Distribuciones Muestrales y Teorema del Límite Central](./APE/APE02.pdf)  
   *Validación experimental del comportamiento del promedio de las muestras y su aproximación continua a la normalidad.*
-* [📄 Laboratorio APE03: Variables Aleatorias Discretas y Continuas](./APE/APE03.ipynb)  
+* [📄 Laboratorio APE03: Variables Aleatorias Discretas y Continuas](./APE/APE03.docx)  
   *Evaluación de funciones continuas mediante aproximaciones numéricas frente al mapeo discreto en conjuntos de datos.*
 * [📄 Laboratorio APE04: Momentos Estadísticos y Análisis de Tendencia Central con Python](./APE/APE04.ipynb)  
   *Programación de scripts para calcular la Esperanza $E[X]$, la Varianza $V[X]$ y estimadores de asimetría sobre colecciones de datos.*
