@@ -24,7 +24,7 @@ Haga clic en cualquiera de los enlaces para revisar la documentación, el códig
   ---
 
 ## 📝 2. Evaluacione Sumativa (Exámen)
-* [💻 Examen Práctico Unidad 2](./https://github.com/sarangoleonardo8-cell/TeoriadelaDistribucionyPobrabilidad/blob/c869779901aa82572a48da5c4a3ea795a9234e93/Unidad2/APE/Jefferson_Sarango_Examen_U2.ipynb)
+* [💻 Examen Práctico Unidad 2](./Jefferson_Sarango_Examen_U2.ipynb)
 
 ---
 
