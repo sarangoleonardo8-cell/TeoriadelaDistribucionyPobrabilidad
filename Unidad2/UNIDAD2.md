@@ -31,13 +31,20 @@ Haga clic en cualquiera de los enlaces para revisar la documentación, el códig
 ## 📓 2. Resumen de Autoevaluación y Aprendizaje
 
 ### 🔬 Conceptos Clave Asimilados
-* **Inferencia y Métodos Estimativos:** Uso práctico de las distribuciones normal $Z$ y $T$ de Student para generar intervalos de confianza realistas sobre parámetros muestrales.
-* **Validación de Supuestos a través del Valor-$p$:** Dominio de la librería `scipy.stats` para estructurar hipótesis de investigación y evaluar la significancia estadística frente a un nivel de alfa prefijado ($\alpha = 0.05$).
-* **Modelos Multigrupo y Control de Error:** Aplicación de modelos lineales OLS en `statsmodels` para realizar análisis ANOVA de una vía, complementado con el algoritmo de Tukey HSD para aislar las variaciones estadísticas significativas bajo el parámetro visual `reject = True`.
+Durante el desarrollo de la Unidad 2 se fortalecieron los conocimientos sobre inferencia estadística paramétrica y su aplicación mediante Python. Se aprendió a utilizar distribuciones de probabilidad para realizar estimaciones e interpretar resultados estadísticos con base en evidencia.
+
+Además, se aplicaron pruebas de hipótesis utilizando la distribución Z y la t de Student, comprendiendo la formulación de hipótesis nula y alternativa, el nivel de significancia y la interpretación del valor-p para la toma de decisiones.
+
+También se desarrollaron análisis de comparación de grupos mediante ANOVA de un factor y pruebas Post Hoc de Tukey, utilizando las librerías SciPy y Statsmodels para validar diferencias estadísticas entre grupos de datos. Finalmente, se reforzó el uso de herramientas como Pandas, NumPy y Matplotlib para el procesamiento, análisis y visualización de información.
 
 ### ⚠️ Retos de Programación Superados
-1. **Limpieza de Formatos Gubernamentales Inconsistentes:** El archivo original de Loja contenía anomalías de codificación y strings corruptos con espacios al final de las celdas. Se corrigió usando la función vectorizada `df.columns.str.strip()` para limpiar los nombres de las variables y que el motor `openpyxl` pudiera operar el modelo lineal.
-2. **Paradoja de Muestras de Gran Volumen:** Comprender que al trabajar con bases masivas ($N = 2883$), el error estándar se reduce tanto que los estadísticos de prueba ($t$ y $F$) crecen a niveles enormes, provocando que los valores-$p$ den potencias científicas diminutas (`e-236`). Aprendí que esto representa un poder de resolución prácticamente absoluto debido al tamaño de la muestra.
+Uno de los principales retos fue comprender la correcta selección de las pruebas estadísticas según las características de los datos, verificando previamente los supuestos necesarios, como la normalidad de la distribución.
+
+Otro desafío fue aprender a utilizar librerías especializadas de Python para automatizar los análisis estadísticos, interpretar correctamente los resultados obtenidos y relacionarlos con el contexto del problema planteado.
+
+Asimismo, se fortalecieron las habilidades para organizar el código en Google Colab, documentarlo adecuadamente y presentar los resultados mediante tablas y gráficos que facilitaran su interpretación.
 
 ### 📌 Conclusión General
-Esta unidad reafirmó la importancia de las ciencias de la computación como aliadas de la estadística inferencial. Automatizar estas pruebas paramétricas demuestra que el código es fundamental para realizar auditorías transparentes y extraer patrones de información real a partir de datos administrativos públicos.
+La Unidad 2 permitió integrar los conocimientos de programación con la estadística inferencial para resolver problemas mediante el análisis de datos. A lo largo de las actividades se aplicaron técnicas como pruebas de hipótesis, intervalos de confianza, pruebas de normalidad, análisis de varianza y comparaciones múltiples, desarrollando habilidades para interpretar resultados y tomar decisiones fundamentadas en evidencia estadística.
+
+El uso de Python y de librerías como Pandas, SciPy, Statsmodels y Matplotlib facilitó la implementación de estos métodos, demostrando la importancia de las herramientas computacionales en el análisis de datos y en la solución de problemas reales. Este proceso contribuyó al fortalecimiento de competencias tanto en programación como en estadística aplicada.
