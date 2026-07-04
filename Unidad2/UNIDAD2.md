@@ -3,7 +3,7 @@
 Este directorio almacena las herramientas analíticas dedicadas al modelamiento paramétrico y contraste de datos reales:
 1. **Cuadernos Experimentales (APE06 a APE10):** Laboratorios interactivos aplicados a la inferencia.
 2. **Evaluación de Cierre de Unidad:** Archivo principal del examen de código (`Jefferson_Sarango_Examen_U2.ipynb`).
-3. **Data Source (`data_source/`):** Archivo maestro con las remuneraciones del GAD Municipal de Loja.
+3. **Data Source (`data_source/`):** Enemdu_vivienda_hogar
 
 ---
 
