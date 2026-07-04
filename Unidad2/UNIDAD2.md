@@ -25,7 +25,7 @@ Haga clic en cualquiera de los enlaces para revisar la documentación, el códig
 
 ## 📝 2. Evaluacione Sumativa (Exámen)
 * [💻 Examen Práctico Unidad 2](./Jefferson_Sarango_Examen_U2.ipynb)
-* [🎥 Video Examen Unidada 3](./https://drive.google.com/drive/folders/1FmoqjeRRQEMsyJX0LkN-gU3pNqKex_Nt?usp=sharing)
+* [🎥 Video Examen Unidada 3](https://drive.google.com/drive/folders/1FmoqjeRRQEMsyJX0LkN-gU3pNqKex_Nt?usp=sharing)
 
 ---
 
