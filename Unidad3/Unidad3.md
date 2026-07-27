@@ -35,14 +35,6 @@ Haga clic en cualquiera de los enlaces para revisar la documentación, el códig
 
 ---
 
-## 📝 2. Evaluaciones Sumativas (Exámenes)
-
-* [💻 Examen Práctico Unidad 3](./Jefferson_Sarango_Examen_U3.ipynb)
-
-* [🎥 Video Examen Unidad 3](https://drive.google.com/drive/folders/1FmoqjeRRQEMsyJX0LkN-gU3pNqKex_Nt?usp=sharing)
-
----
-
 ## 📓 3. Resumen de Autoevaluación y Aprendizaje
 
 ### 🔬 Conceptos Clave Asimilados
