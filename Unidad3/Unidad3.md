@@ -1,45 +1,66 @@
-# 📊 Unidad 3: Inferencia Estadística y Pruebas de Hipótesis
+# 🤖 Unidad 3: Modelos Probabilísticos y Regresión
+
 ## 📁 Contenedor de Entregas Finales
-Este directorio almacena las herramientas analíticas dedicadas al modelamiento paramétrico y contraste de datos reales:
-1. **Cuadernos Experimentales (APE06 a APE10):** Laboratorios interactivos aplicados a la inferencia.
-2. **Evaluación de Cierre de Unidad:** Archivo principal del examen de código (`Jefferson_Sarango_Examen_U2.ipynb`).
-3. **Data Source (`data_source/`):** Enemdu_vivienda_hogar
+
+Este directorio agrupa las herramientas analíticas dedicadas al modelado predictivo y la evaluación de variables de respuesta continuas y categóricas:
+
+1. **Cuadernos Experimentales (APE11 a APE16):** Laboratorios interactivos para el desarrollo de modelos de regresión, análisis de correlación y evaluación de clasificadores.
+2. **Data Source (`data_source/`):** Archivo base de la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), módulo de Vivienda y Hogar (periodo 2026-02).
 
 ---
 
 ## 🗺️ 1. Estructura de Actividades Prácticas Experimentales (Laboratorios)
+
 Haga clic en cualquiera de los enlaces para revisar la documentación, el código y la resolución técnica interactiva:
 
-* [📄 Laboratorio APE11: Distribuciones Continuas Notables](./APE/APE06.ipynb)  
-  *Modelamiento de la campana de Gauss, estandarización de variables y aplicación práctica de la tabla Z mediante software.*
-* [📄 Laboratorio APE12: Distribuciones Muestrales y Teorema del Límite Central (TLC) mediante Simulación Estocástica](./APE/APE07.ipynb)  
-  *Generación masiva de muestras por simulación para demostrar visual y matemáticamente el cumplimiento asintótico del TLC.*
-* [📄 Laboratorio APE13: Inferencia Estadística: Estimación de Parámetros e Intervalos de Confianza (Z y T de Student)](./APE/APE08.ipynb)  
-  *Cálculo automatizado de intervalos de confianza para predecir medias bajo varianzas poblacionales conocidas y desconocidas.*
-* [📄 Laboratorio APE14: Inferencia Estadística: Pruebas de Hipótesis Paramétricas (Z y T) y Análisis del Valor-p](./APE/APE09.ipynb)  
-  *Ejecución de contrastes empíricos de hipótesis paramétricas e interpretación crítica del valor-$p$ como regla para rechazar la hipótesis nula.*
-* [📄 Laboratorio APE15: Inferencia Estadística Multigrupo: Análisis de Varianza (ANOVA de 1 factor) y Pruebas Post-Hoc (Tukey)](./APE/APE10.ipynb)  
-  *Implementación de contrastes de varianza multilinea y comparación simultánea por parejas para mitigar la inflación del error Tipo I.*
+* [📊 Laboratorio APE11: Inferencia Estadística Multigrupo (ANOVA de 1 Factor) y Pruebas Post-Hoc (Tukey)](./APE/APE11_InferenciaEstadistica_GrupoE.ipynb)
+  
+  *Segmentación de hogares según tipo de vivienda y análisis de varianza del gasto en arriendo, incluyendo validación de supuestos (Levene) y prueba alternativa no paramétrica de Kruskal-Wallis.*
+
+* [📈 Laboratorio APE12: Análisis Bivariado y Predicción: Correlación de Pearson y Modelo de Regresión Lineal Simple (OLS)](./APE/APE_012_AnalisisBivariado.ipynb)
+  
+  *Estudio de la relación lineal entre el número de cuartos y el valor del arriendo, cálculo del coeficiente de correlación, ajuste del modelo OLS y generación de predicciones puntuales con extrapolación.*
+
+* [📉 Laboratorio APE13: Regresión Lineal Múltiple: Modelado Multivariado y Diagnóstico de Multicolinealidad (VIF)](./APE/APE_014_RegresionMultiple.ipynb)
+  
+  *Construcción de un modelo predictivo multivariado, análisis de correlación mediante pairplot y heatmap, y detección de multicolinealidad mediante el Factor de Inflación de la Varianza (VIF).*
+
+* [📋 Laboratorio APE14: Regresión Logística: Modelado de Probabilidades y Matriz de Confusión](./APE/APE_015_Logistica.ipynb)
+  
+  *Aplicación de la función sigmoide para la clasificación binaria, ajuste del modelo Logit, evaluación de la matriz de confusión y análisis del impacto del umbral de decisión (Thresholding) en el balance de errores.*
+
+* [🏆 Laboratorio APE15: Evaluación Avanzada de Modelos: Curva ROC, AUC y Validación Cruzada (K-Fold)](./APE/APE_016_ValidacionROC.ipynb)
+  
+  *Evaluación de la capacidad discriminante de un modelo de regresión logística mediante la Curva ROC y el Área Bajo la Curva (AUC), consolidación del modelo regional del Proyecto Integrador y análisis de robustez mediante validación cruzada estocástica (K-Fold).*
 
 ---
 
-## 📓 2. Resumen de Autoevaluación y Aprendizaje
+## 📝 2. Evaluaciones Sumativas (Exámenes)
+
+* [💻 Examen Práctico Unidad 3](./Jefferson_Sarango_Examen_U3.ipynb)
+
+* [🎥 Video Examen Unidad 3](https://drive.google.com/drive/folders/1FmoqjeRRQEMsyJX0LkN-gU3pNqKex_Nt?usp=sharing)
+
+---
+
+## 📓 3. Resumen de Autoevaluación y Aprendizaje
 
 ### 🔬 Conceptos Clave Asimilados
-Durante el desarrollo de la Unidad 2 se fortalecieron los conocimientos sobre inferencia estadística paramétrica y su aplicación mediante Python. Se aprendió a utilizar distribuciones de probabilidad para realizar estimaciones e interpretar resultados estadísticos con base en evidencia.
 
-Además, se aplicaron pruebas de hipótesis utilizando la distribución Z y la t de Student, comprendiendo la formulación de hipótesis nula y alternativa, el nivel de significancia y la interpretación del valor-p para la toma de decisiones.
+Durante la Unidad 3, se consolidaron los fundamentos del modelado predictivo, evolucionando desde el análisis de relaciones bivariadas (Correlación de Pearson) hacia la construcción de modelos de regresión lineal y logística. Se comprendió la importancia de la significancia estadística de los coeficientes (valor-p) y la interpretación de métricas de ajuste como el **R²** en regresión y la **Exactitud** y **Sensibilidad** en clasificación.
 
-También se desarrollaron análisis de comparación de grupos mediante ANOVA de un factor y pruebas Post Hoc de Tukey, utilizando las librerías SciPy y Statsmodels para validar diferencias estadísticas entre grupos de datos. Finalmente, se reforzó el uso de herramientas como Pandas, NumPy y Matplotlib para el procesamiento, análisis y visualización de información.
+Se aplicaron técnicas de diagnóstico de modelos, como el análisis de multicolinealidad mediante el **Factor de Inflación de la Varianza (VIF)** y la evaluación del rendimiento a través de la **Curva ROC** y el **AUC**, entendiendo la diferencia entre una métrica dependiente de un umbral (exactitud) y una métrica independiente del mismo (AUC).
+
+Se exploró el concepto de **Validación Cruzada Estocástica (K-Fold)** para obtener estimaciones más robustas del rendimiento del modelo y cuantificar su estabilidad, reconociendo las limitaciones de evaluar un modelo con una sola partición de datos. Se reforzó el uso de librerías como `scikit-learn` y `statsmodels` para la implementación de estos modelos y técnicas de evaluación.
 
 ### ⚠️ Retos de Programación Superados
-Uno de los principales retos fue comprender la correcta selección de las pruebas estadísticas según las características de los datos, verificando previamente los supuestos necesarios, como la normalidad de la distribución.
 
-Otro desafío fue aprender a utilizar librerías especializadas de Python para automatizar los análisis estadísticos, interpretar correctamente los resultados obtenidos y relacionarlos con el contexto del problema planteado.
+Uno de los principales retos fue la correcta preparación de los datos para el modelado, incluyendo la codificación de variables categóricas (*one-hot encoding*) para la regresión logística y la verificación de supuestos como la homocedasticidad en modelos lineales. Se superaron dificultades en la interpretación de la salida de `statsmodels` para modelos logísticos y en la implementación de la validación cruzada con `cross_val_score`.
 
-Asimismo, se fortalecieron las habilidades para organizar el código en Google Colab, documentarlo adecuadamente y presentar los resultados mediante tablas y gráficos que facilitaran su interpretación.
+Otro desafío significativo fue el ajuste y la interpretación del umbral de decisión (threshold) en clasificación, entendiendo el *trade-off* entre **Falsos Positivos** y **Falsos Negativos** y su impacto en la toma de decisiones. Se desarrolló la habilidad de traducir los resultados de las métricas de evaluación (como el AUC y la matriz de confusión) en conclusiones prácticas para un problema de negocio regional.
 
 ### 📌 Conclusión General
-La Unidad 3 permitió integrar los conocimientos de programación con la estadística inferencial para resolver problemas mediante el análisis de datos. A lo largo de las actividades se aplicaron técnicas como pruebas de hipótesis, intervalos de confianza, pruebas de normalidad, análisis de varianza y comparaciones múltiples, desarrollando habilidades para interpretar resultados y tomar decisiones fundamentadas en evidencia estadística.
 
-El uso de Python y de librerías como Pandas, SciPy, Statsmodels y Matplotlib facilitó la implementación de estos métodos, demostrando la importancia de las herramientas computacionales en el análisis de datos y en la solución de problemas reales. Este proceso contribuyó al fortalecimiento de competencias tanto en programación como en estadística aplicada.
+La Unidad 3 integró los conocimientos de probabilidad e inferencia estadística para la creación de modelos predictivos útiles en la toma de decisiones. Se aplicaron técnicas de regresión lineal y logística a datos reales de la ENEMDU para predecir variables de interés como el arriendo y el acceso a servicios básicos.
+
+El uso de Python y sus librerías especializadas permitió automatizar el proceso de modelado, desde la limpieza y preparación de datos hasta la evaluación y validación de modelos, demostrando la potencia de la computación para el análisis de datos y la solución de problemas prácticos en contextos como la planificación de infraestructura pública y el análisis socioeconómico. Este proceso fortaleció las competencias en programación, estadística aplicada y comunicación de resultados.
