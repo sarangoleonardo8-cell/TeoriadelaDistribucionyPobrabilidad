@@ -21,3 +21,5 @@ Seleccione el directorio correspondiente para revisar las guías experimentales 
 
 * [📂 Unidad 1: Fundamentos de Probabilidad y Distribuciones](./Unidad1/UNIDAD1.md)
 * [📂 Unidad 2: Inferencia Estadística y Pruebas de Hipótesis](./Unidad2/UNIDAD2.md)
+* [📂 Unidad 3: Modelos Probabilísticos y Regresión](./Unidad3/Unidad3.md)
+
